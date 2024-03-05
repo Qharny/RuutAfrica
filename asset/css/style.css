@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+:root{
+    --bgcolor : #f1f1f1;
+    --white: #fff;
+    --black: #000;
+    --primary-color: #df3e3e;
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(#00000080, #00000080), url(../Images/hatake-kakashi-naruto-anime-q5-1536x864.jpg);
+}
+
+/* default styling for all anchor tag */
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 3rem 9%;
+}
+
+/* header */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 1.5rem 9%;
+    box-shadow: 0px 2px 15px #0000001a;
+    top: 0px;
+
+}
+.header .logo{
+    width: 150px;
+    height: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--black);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.header .logo img{
+    width: 100%;
+    height: 70px;
+    margin-top: -5px;
+    object-fit: cover;
+}
+.header .menu-icon{
+    display: none;
+}
+.header .menu-icon i{
+    display: none;
+    font-size: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.header nav ul li{
+    list-style: none;
+    display: inline;
+    font-size: 1.2rem;
+}
+.header nav ul li a{
+    color: var(--black);
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.header nav ul li a:hover{
+    color: var(--primary-color);
+}
+/* End of header */
+
+/* hero */
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 8.7rem;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#00000080, #00000080), url(../Images/uchiha-sasuke-naruto-ix-1536x864.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+.hero .hero-text h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+.hero .hero-text span{
+    color: var(--primary-color);
+}
+.hero .hero-text p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.btn-action{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.first-btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.first-btn:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+.second-btn{
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 150px;
+    text-align: center;
+}
+.second-btn:hover{
+    background-color: #f06d6d;
+    color: var(--white);
+}
+/* end of hero section */
+
+
+/* about */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    height: max-content;
+    overflow: hidden;
+}
+.about h1{
+    color: var(--white);
+}
+.about .about-content{
+    width: 40%;
+    background-color: #00000080;
+    color: var(--white);
+    padding: 2rem;
+}
+.about .about-content p{
+    margin-top: 10px;
+}
+.about .image{
+    width: 40%;
+}
+/* .about .image img{
+    height: 50vh;
+} */
+/* end of about section*/
+
+/* contact  */
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    background-color: var(--bgcolor);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact form{
+    display: grid;
+    place-items: center;
+}
+.contact .contact-image img{
+    height: 50vh;
+}
+input{
+    outline: none;
+}
+/* End of contact section */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .header{
+        padding: 15px 30px;
+    }
+    .header .menu-icon{
+        display: block;
+    }
+    .header .menu-icon i{
+        display: block;
+    }
+    .header nav{
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        z-index: 999;
+    }
+    .header nav ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header nav ul li{
+        margin-top: 20px;
+    }
+    .header nav ul li a{
+        font-size: 1.5rem;
+    }
+    .header nav.active{
+        left: 0;
+    }
+    .header .menu-icon.active i{
+        display: none;
+    }
+    .header .menu-icon.active i.close{
+        display: block;
+    }
+}
