@@ -22,3 +22,11 @@ In this project, we aim to create an interactive website that showcases traditio
 
 # SNEAK A PEAK 
 
+![Hero Page]([image_URL](https://github.com/Qharny/RuutAfrica/blob/main/assets/img/hero.png))
+
+
+### CONTACT ###
+
+Slitandkabafestival@gmail.com
+
++233 54 482 5225 || +233 53 049 7706
