@@ -10,8 +10,11 @@ In this project, we aim to create an interactive website that showcases traditio
 ```
 ## NAVIGATIONS ##
 - [Home](README.md)
+
 - [Gallery](gallery.md)
+
 - [About Us](about_us.md)
+
 - [Contact Us](contact_us.md)
 
 
